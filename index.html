@@ -45,38 +45,25 @@
         <hr>
 
         <fieldset class="mt-4">
-          <label for="radius1">Enter radius:</label>
-          <input id="radius1" type="number" value="1">
+          <label for="radius">Enter radius:</label>
+          <input name="radius" id="radius" type="number" value="1">
+        <button onclick="areaOfCircle(radius)">Calculate</button>
         </fieldset>
-
-        <!-- 
-        <fieldset class="mt-4">
-          <label for="firstNumber">Enter first number (1 to 100):</label>
-          <input id="firstNumber" type="number" min="1" max="100" value=7>
-          <span id="firstWarning" class="text-danger"></span>
-        </fieldset>
-
-        <fieldset class="mt-4">
-          <label for="secondNumber">Enter second number (1 to 100):</label>
-          <input id="secondNumber" type="number" min="1" max="100" value="12">
-          <span id="secondWarning" class="text-danger"></span>
-        </fieldset>
-            
-        -->
-
       </div>
       <!--end column 1-->
 
-      <!--column 2 (5/12) -->
+        
+        
+      <!--column 2 (5/12) 
       <div class="col-md-5 mb-4">
         <h2>Result</h2>
         <hr>
-        <button  onclick="area()" id="addButton" class="btn btn-primary">Calculate</button>
+        <button  onclick="areaOfCirlce()" id="addButton" class="btn btn-primary">Calculate</button>
         <p id="result"></p>
 
       </div>
-      <!-- end column 2-->
-
+       end column 2-->
+     
     </div>
     <!-- end row 1 -->
 
@@ -87,9 +74,6 @@
     <div class="container">
       <span class="text-muted">Right-click / Inspect / Console</span>
       &#9670;
-      <a href="https://profcase.github.io/js-gui/">Demo</a>
-      &#9670;
-      <a href="https://github.com/profcase/js-gui">Source</a>
     </div>
   </footer>
 
